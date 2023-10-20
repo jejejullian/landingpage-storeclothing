@@ -1,0 +1,415 @@
+salinan index html 
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wicked</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header class="header fixed-top">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <a href="#home" class="logo">WICKedstich</a>
+          <nav class="nav">
+            <a href="" class="nav-link">home</a>
+            <a href="" class="nav-link">shop</a>
+            <a href="" class="nav-link">about</a>
+            <a href="" class="nav-link">cooming soon</a>
+          </nav>
+          <div class="icon-bar">
+            <span class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></span>
+            <span class="icon" aria-hidden="true"><i class="far fa-bell fa-xl"></i></span>
+            <span class="icon" aria-hidden="true"><i class="fas fa-shopping-bag fa-xl"></i></span>
+            <span class="icon" aria-hidden="true"><i class="far fa-user fa-xl"></i></span>
+          </div>
+          <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- home section start  -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="content text-center text-md-start">
+            <h3>Elevate your style with the trends streetwear</h3>
+            <p>Temukan tren fashion terkini yang mempersembahkan kenyamanan baru. Koleksi streetwear kami memberikan gaya yang percaya diri dan unik.</p>
+            <a href="" class="link-btn">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section end  -->
+
+    <!-- section start collection  -->
+    <section class="collection" id="collection">
+      <div class="container">
+        <div class="row row-cols-2 justify-content-center">
+          <div class="col col1 custom-col d-flex align-items-center">
+            <a href="#"><h1 class="ms-3">blazer</h1></a>
+          </div>
+          <div class="col col2 custom-col d-flex align-items-center">
+            <a href="#"><h1 class="ms-3">oversize shirt</h1></a>
+          </div>
+          <div class="col col3 custom-col d-flex align-items-center">
+            <a href="#"><h1 class="ms-3">vest collection</h1></a>
+          </div>
+          <div class="col col4 custom-col d-flex align-items-center">
+            <a href="#"><h1 class="ms-3">hoodie</h1></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section end collection  -->
+
+    <!-- section carousel start  -->
+    <section class="carousel" id="carousel">
+      <div class="container">
+        <div class="tittle-text justify-content-center align-items-center ms-3">
+          <div class="content text-center text-md-start">
+            <h3>Your Style, Your Statement!</h3>
+            <a href="" class="link-btn">shop now</a>
+          </div>
+        </div>
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card">
+                <img src="assets/images/hoodie1.png" class="card-img-top" alt="First Slide" />
+              </div>
+              <div class="card-body">
+                <div class="card-info">
+                  <a href="">
+                    <h3 class="card-title">Hoodie Black Unisex</h3>
+                    <p>Rp <span>250.000</span></p>
+                  </a>
+                </div>
+                <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <img src="assets/images/pants1.png" class="card-img-top" alt="Second Slide" />
+              </div>
+              <div class="card-body">
+                <div class="card-info">
+                  <a href="">
+                    <h3 class="card-title">Cargo dark grey</h3>
+                    <p>Rp <span>300.000</span></p>
+                  </a>
+                </div>
+                <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <img src="assets/images/shirt2.png" class="card-img-top" alt="Third Slide" />
+              </div>
+              <div class="card-body">
+                <div class="card-info">
+                  <a href="">
+                    <h3 class="card-title">shirt dark brown</h3>
+                    <p>Rp <span>250.000</span></p>
+                  </a>
+                </div>
+                <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="button-carousel">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <i class="fa-solid fa-circle-arrow-left fa-2xl" style="color: #000000"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <i class="fa-solid fa-circle-arrow-right fa-2xl" style="color: #000000"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section carousel end  -->
+
+    <!-- section dashboard start  -->
+    <section class="dashboard" id="dashboard">
+      <div class="container">
+        <div class="row-custom row-dashboard rounded-pill text-left d-flex align-items-center p-5">
+          <div class="content text-logo">
+            <h3>WICKEDSTICH</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section dashboard end -->
+
+    <!-- section recomend star  -->
+    <section class="recommend" id="recommend">
+      <div class="container text-center d-flex align-items-center justify-content-between mb-5">
+        <h1 class="fw-bolder">recommend for you</h1>
+        <a href="" class="link-btn">see all</a>
+      </div>
+      <div class="row row-product row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 m-3">
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/shirt7.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h5 class="card-title">shirt dark brown</h5>
+                <p>Rp <span>250.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/pants5.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h5 class="card-title">hoodie black unisex</h5>
+                <p>Rp <span>250.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/shirt6.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h5 class="card-title">cargo dark grey</h5>
+                <p>Rp <span>300.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/shirt5.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h5 class="card-title">Setke oversize blue</h5>
+                <p>Rp <span>150.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/pants4.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h5 class="card-title">Setke oversize blue</h5>
+                <p>Rp <span>150.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/hoodie4.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h5 class="card-title">Setke oversize blue</h5>
+                <p>Rp <span>150.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+    <!-- section recomend star  -->
+
+    <!-- section other product start -->
+    <section class="other-product" id="other-product" style="background-color: var(--light-bg);">
+      <div class="container text-center d-flex align-items-center justify-content-between mb-5">
+        <h1 class="fw-bolder">recommend for you</h1>
+        <a href="" class="link-btn">see all</a>
+      </div>
+      <div class="row row-product row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 m-3">
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/hoodie1.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">hoodie black unisex</h3>
+                <p>Rp <span>250.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/pants1.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">cargo dark grey</h3>
+                <p>Rp <span>300.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/shirt1.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">Setke oversize blue</h3>
+                <p>Rp <span>150.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/shirt3.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">shirt black censor</h3>
+                <p>Rp <span>200.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/hoodie2.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">hoodie oversize sport</h3>
+                <p>Rp <span>300.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/pants2.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">sweat pant star</h3>
+                <p>Rp <span>150.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/jacket1.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">varsity black</h3>
+                <p>Rp <span>300.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/shirt4.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">crewl oversize black</h3>
+                <p>Rp <span>150.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+        <div class="col col-product">
+          <div class="card card-product">
+            <img src="assets/images/hoodie3.png" class="card-img-top" alt="Third Slide" />
+          </div>
+          <div class="card-body">
+            <div class="card-info text-product-card">
+              <a href="">
+                <h3 class="card-title">hoodie black zhek</h3>
+                <p>Rp <span>200.000</span></p>
+              </a>
+            </div>
+            <button class="icon" aria-hidden="true"><i class="far fa-heart fa-xl"></i></button>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+    <!-- section other product end -->
+
+    <footer class="footer" id="footer">
+          <div class="row row-cols-4 row-footer align-items-center p-5">
+            <div class="col col-logo">
+              <h3 class="fs-1 fw-bolder">WICKEDSTICH</h3>
+              <p>Discover the latest fashion at WICKEDSTICH online store. Explore a variety of styles and trends for a fashionable you. Shop now for the perfect look!</p>
+            </div>
+            <div class="col col-about">
+              <h3>about</h3>
+              <a href=""><h5>company</h5></a>
+              <a href=""><h5>contact</h5></a>
+            </div>
+            <div class="col col-discover">
+              <h3>discover</h3>
+              <a href=""><h5>collection</h5></a>
+              <a href=""><h5>cooming soon</h5></a>
+            </div>
+            <div class="col col-faq">
+              <h3 class="text-uppercase">faq</h3>
+              <a href=""><h5>collection</h5></a>
+              <a href=""><h5>cooming soon</h5></a>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="home.js"></script>
+
+  </body>
+</html>
+
